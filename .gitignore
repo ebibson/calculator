@@ -58,7 +58,9 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
+git remote add origin git@github.com:ebibson/Ci.git
+git branch -M main
+git push -u origin main
 # dotenv environment variables file
 .env
 .env.test
